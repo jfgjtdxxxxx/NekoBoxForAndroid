@@ -95,7 +95,7 @@
     <string name="transproxy_mode">Transproxy Mode</string>
     <string name="connection_test_url">Connection Test URL</string>
 
-    <!-- بقیه رشته‌ها (بدون تغییر) -->
+    <!-- proxy category -->
     <string name="profile_name">Profile Name</string>
     <string name="server_address">Server</string>
     <string name="server_port">Remote Port</string>
@@ -196,24 +196,231 @@
     <string name="profile_empty">Please select a profile</string>
     <string name="connect">Connect</string>
     <string name="clipboard_empty">Clipboard is empty</string>
-
-    <!-- settings & others (بقیه) -->
+<!-- settings & others -->
     <string name="settings">Settings</string>
     <string name="edit">Edit</string>
     <string name="share">Share</string>
     <string name="add_profile">Add Profile</string>
     <string name="select_profile">Select Profile</string>
 
-    <!-- رشته‌های مشکل‌دار اصلی که اصلاح شدن -->
+    <!-- رشته‌های مشکل‌دار و جدید (برای رفع وارنینگ) -->
+    <string name="app_tls_version">TLS Version</string>
+    <string name="append_http_proxy">Append HTTP Proxy</string>
+    <string name="append_http_proxy_sum">Append HTTP proxy to system settings</string>
+    <string name="apply">Apply</string>
+    <string name="apps">Apps</string>
+    <string name="apps_message">Select apps to proxy</string>
+    <string name="auto">Auto</string>
+    <string name="auto_select_proxy_apps">Auto select proxy apps</string>
+    <string name="auto_select_proxy_apps_message">Auto select proxy apps, this will clear your current selection.</string>
+    <string name="auto_update">Auto Update</string>
+    <string name="auto_update_delay">Auto Update Delay (minutes)</string>
+    <string name="available">Available</string>
+    <string name="backup">Backup</string>
+    <string name="backup_groups_and_configurations">Backup Groups and Configurations</string>
+    <string name="backup_import">Import Backup</string>
+    <string name="backup_import_summary">Import from backup file</string>
+    <string name="backup_importing">Importing...</string>
+    <string name="backup_not_file">Selected file is not a valid backup</string>
+    <string name="backup_rules">Backup Route Rules</string>
+    <string name="backup_settings">Backup Settings</string>
+    <string name="backup_summary">Export all groups, profiles and settings</string>
+    <string name="balancer">Balancer</string>
+    <string name="balancer_settings">Balancer Settings</string>
+    <string name="balancer_strategy">Strategy</string>
+    <string name="balancer_type">Type</string>
+    <string name="bypass_lan_in_core">Bypass LAN in Core</string>
+    <string name="chain_settings">Chain Settings</string>
+    <string name="check_update_no">Check successful, but no updates.</string>
+    <string name="check_update_preview">Check for preview version updates</string>
+    <string name="check_update_release">Check for release version updates</string>
+    <string name="circular_reference">Circular Reference</string>
+    <string name="circular_reference_sum">Allow circular reference in proxy chain</string>
+    <string name="clear_logcat">Clear Logcat</string>
+    <string name="clear_profiles">Clear Profiles</string>
+    <string name="clear_profiles_message">Clear all profiles?</string>
+    <string name="clear_traffic_statistics">Clear Traffic Statistics</string>
+    <string name="cleartext_http_warning">Cleartext HTTP traffic is not allowed</string>
+    <string name="cloudflare_wrap">Cloudflare Warp</string>
+    <string name="config_settings">Config Settings</string>
+    <string name="confirm">Confirm</string>
+    <string name="connecting">Connecting...</string>
+    <string name="connection_test">Connection Test</string>
+    <string name="connection_test_clear_results">Clear Results</string>
+    <string name="connection_test_delete_unavailable">Clear unavailable</string>
+    <string name="connection_test_domain_not_found">Domain not found</string>
+    <string name="connection_test_icmp_ping">ICMP Ping</string>
+    <string name="connection_test_icmp_ping_unavailable">ICMP Ping unavailable</string>
+    <string name="connection_test_refused">Connection refused</string>
+    <string name="connection_test_tcp_ping">TCP Ping</string>
+    <string name="connection_test_tcp_ping_unavailable">TCP Ping unavailable</string>
+    <string name="connection_test_timeout">Timeout</string>
+    <string name="connection_test_unreachable">Unreachable</string>
+    <string name="connection_test_url_test">URL Test</string>
+    <string name="copy_failed">Copy failed</string>
+    <string name="copy_label">Copy</string>
+    <string name="copy_package_name">Copy Package Name</string>
+    <string name="copy_success">Copied successfully</string>
+    <string name="create_rule">Create Rule</string>
+    <string name="create_shortcut">Create Shortcut</string>
+    <string name="custom_config">Custom Config</string>
+    <string name="custom_config_json">Custom config JSON</string>
+    <string name="custom_outbound_json">Custom outbound JSON</string>
+    <string name="deduplication">Deduplication</string>
+    <string name="deduplication_sum">Remove duplicate profiles</string>
+    <string name="delete">Delete</string>
+    <string name="delete_confirm_prompt">Are you sure?</string>
+    <string name="delete_group_prompt">Delete this group?</string>
+    <string name="deprecated">Deprecated</string>
+    <string name="destination_override">Destination Override</string>
+    <string name="destination_override_summary">Override destination for routing</string>
+    <string name="disable">Disable</string>
+    <string name="domain_strategy_for_direct">Domain strategy for Direct</string>
+    <string name="domain_strategy_for_remote">Domain strategy for Remote</string>
+    <string name="domain_strategy_for_server">Domain strategy for Server address</string>
+    <string name="donate">Donate</string>
+    <string name="donate_info">Support the project</string>
+    <string name="download">Download</string>
+    <string name="ech_config">ECH Config</string>
+    <string name="ech_settings">ECH Settings</string>
+    <string name="enable">Enable</string>
+    <string name="enable_clash_api">Enable Clash API</string>
+    <string name="enable_clash_api_summary">Provide clash api and yacd dashboard at 127.0.0.1:9090</string>
+    <string name="enable_ech">Enable ECH</string>
+    <string name="enable_ech_sum">Enable Encrypted Client Hello</string>
+    <string name="enable_log">Enable Log</string>
+    <string name="enable_log_sum">Enable debug logging</string>
+    <string name="error_title">Error</string>
+    <string name="exe_prefer_provider">Plugin Preferred Provider</string>
+    <string name="experimental_settings">Experimental Settings</string>
+    <string name="file_manager_missing">File manager not found</string>
+    <string name="follow_system">Follow System</string>
+    <string name="force_resolve">Force Resolve</string>
+    <string name="force_resolve_sum">Force resolve subscription even if unchanged</string>
+    <string name="front_proxy">Front proxy</string>
+    <string name="generating">Generating...</string>
+    <string name="global_allow_insecure">Always allow insecure</string>
+    <string name="group_basic">Basic</string>
+    <string name="group_filter">Filter</string>
+    <string name="group_not_subscription">Group type is not subscription</string>
+    <string name="group_order">Order</string>
+    <string name="group_order_by_delay">By Delay</string>
+    <string name="group_order_by_name">By Name</string>
+    <string name="group_order_origin">Original Order</string>
+    <string name="group_settings">Group Settings</string>
+    <string name="group_type">Group Type</string>
+    <string name="hop_interval">Port Hopping Interval (second)</string>
+    <string name="http_upgrade_host">HTTPUpgrade Host</string>
+    <string name="http_upgrade_path">HTTPUpgrade Path</string>
+    <string name="hysteria_auth_payload">Auth Payload</string>
+    <string name="hysteria_auth_type">Auth Type</string>
+    <string name="hysteria_connection_receive_window">Connection Receive Window</string>
+    <string name="hysteria_disable_mtu_discovery">Disable MTU Discovery</string>
+    <string name="hysteria_download_mbps">Download Mbps</string>
+    <string name="hysteria_obfs">Obfs</string>
+    <string name="hysteria_stream_receive_window">Stream Receive Window</string>
+    <string name="hysteria_upload_mbps">Upload Mbps</string>
+    <string name="ignore_battery_optimizations">Ignore Battery Optimizations</string>
+    <string name="ignore_battery_optimizations_sum">Allow app to run in background</string>
+    <string name="insecure">Insecure</string>
+    <string name="install_from_fdroid">Install from F-Droid</string>
+    <string name="install_from_play_store">Install from Play Store</string>
+    <string name="invalid_backup_file">Invalid backup file</string>
+    <string name="is_outbound_only">The JSON set is outbound</string>
+    <string name="landing_proxy">Landing Proxy</string>
+    <string name="leastPing">Least Ping</string>
+    <string name="license">License</string>
+    <string name="lines">Lines</string>
+    <string name="list">List</string>
+    <string name="log_level">Log Level</string>
+    <string name="log_level_help">Long press the preference to set the buffer size.</string>
+    <string name="menu_log">Log</string>
+    <string name="menu_tools">Tools</string>
+    <string name="minimize">Minimize</string>
+    <string name="missing_plugin">Missing Plugin</string>
+    <string name="move">Move</string>
+    <string name="mtu">MTU</string>
+    <string name="mtu_help">Long press the preference to set custom MTU.</string>
+    <string name="mux_preference">Multiplex</string>
+    <string name="mux_type">Mux protocol</string>
+    <string name="naive_insecure_concurrency">Insecure Concurrency</string>
+    <string name="naive_insecure_concurrency_summary">Higher value may improve speed but less secure</string>
+    <string name="nat_result_hint">NAT Type</string>
+    <string name="nat_stun_server_hint">STUN Server for NAT Test</string>
+    <string name="need_reload">Reload needed</string>
+    <string name="need_restart">Restart APP to apply changes</string>
+    <string name="network_change_reset_connections">Reset outbound connections when network changes</string>
+    <string name="night_mode">Night Mode</string>
+    <string name="no">No</string>
+    <string name="no_proxies_found">No proxies found</string>
+    <string name="no_proxies_found_in_clipboard">No proxies found in clipboard</string>
+    <string name="no_proxies_found_in_file">No proxies found in file</string>
+    <string name="no_proxies_found_in_subscription">No proxies found in subscription</string>
+    <string name="no_statistics">No statistics</string>
+    <string name="not_connected">Not connected</string>
+    <string name="ooc_missing_protocol">Missing protocol in Outbound</string>
+    <string name="ooc_subscription_token">Subscription Token</string>
+    <string name="ooc_subscription_token_invalid">Invalid subscription token</string>
+    <string name="ooc_warning">One Open Configuration</string>
+    <string name="open_app">Open App</string>
+    <string name="open_app_settings">Open System Settings</string>
+    <string name="open_market">Open Market</string>
+    <string name="open_settings">Open Settings</string>
+    <string name="packet_encoding">Packet Encoding</string>
+    <string name="padding">Padding</string>
+    <string name="pcap">PCAP</string>
+    <string name="pcap_notice">Capture traffic to pcap file</string>
+    <string name="plugin">Plugin</string>
+    <string name="plugin_auto_connect_unlock_only">Auto Connect (Unlock Only)</string>
+    <string name="plugin_configure">Configure</string>
+    <string name="plugin_disabled">Disabled</string>
+    <string name="plugin_unknown">Unknown Plugin</string>
+    <string name="plugin_untrusted">Untrusted Plugin</string>
+    <string name="preview_version_hint">This application is a preview version and may contain many problems.</string>
+    <string name="probe_interval">Probe Interval</string>
+    <string name="profile_config">Profile Config</string>
+    <string name="profile_import">Import Profile</string>
+    <string name="profile_import_message">Import from clipboard or file</string>
+    <string name="profile_traffic_statistics">Profile Traffic Statistics</string>
+    <string name="profile_traffic_statistics_summary">Show traffic for each profile</string>
+    <string name="protocol_settings">Protocol Settings</string>
+    <string name="protocol_version">Protocol Version</string>
+    <string name="proxy_cat">Proxy</string>
+    <string name="proxy_chain">Proxy Chain</string>
+    <string name="random">Random</string>
+    <string name="raw">Raw</string>
+    <string name="release_wake_lock">Release WakeLock</string>
+    <string name="remove_duplicate">Remove duplicate servers</string>
+    <string name="reset_connections">Reset Connections</string>
+    <string name="reset_settings">Restore default settings</string>
+    <string name="reset_settings_message">Restore default settings...</string>
+    <string name="resolve_destination">Resolve Destination</string>
+    <string name="resolve_destination_summary">Resolve destination for routing</string>
+    <string name="resolve_server">Resolve the server address according to the IPv6 policy</string>
+    <string name="route_for">Route for</string>
+    <string name="route_need_vpn">This route needs VPN mode</string>
+    <string name="route_warn">Warning</string>
+    <string name="save">Save</string>
+    <string name="select_apps">Select Apps</string>
+    <string name="service_subscription">Subscription Service</string>
+    <string name="set_panel_url">Set panel URL</string>
+    <string name="shadowsocks_plugin_simple_obfs">Simple Obfs</string>
+    <string name="shadowsocks_plugin_v2ray">V2Ray Plugin</string>
+    <string name="share_qr_nfc">Share via QR/NFC</string>
+    <string name="share_subscription">Share Subscription</string>
+    <string name="show_bottom_bar">Show bottom bar like SagerNet</string>
+    <string name="show_group_in_notification">Show group name in notification</string>
+    <string name="sniff_override">Sniff result for destination</string>
+    <string name="sniff_routing">Sniff result for routing</string>
+    <string name="ss_cat">Shadowsocks</string>
+    <string name="ssh_auth_type_none">None</string>
+
+    <!-- رشته‌های مشکل‌دار قبلی -->
     <string name="please_update" formatted="false">Your APP is too old (%s). And will stop working at %s. Please update!</string>
     <string name="please_update_force" formatted="false">Your APP is too old (%s). And has been stopped working at %s. Please update!</string>
-    <string name="plugin_exists_but_on_shit_system" formatted="false">Profile %s requires the %s plugin, but your proprietary equipment vendor (usually surveillance capital giants and malware maker) tampered with your Android, making the plugin unusable.</string>
+    <string name="plugin_exists_but_on_shit_system" formatted="false">Profile %s requires the %s plugin, but your proprietary equipment vendor tampered with your Android.</string>
     <string name="profile_requiring_plugin" formatted="false">Profile %s requires the %s plugin to be installed, but it was not found.</string>
     <string name="subscription_traffic" formatted="false">%s Used / %s Remaining</string>
 
-    <!-- ادامه فایل (بقیه رشته‌ها بدون تغییر) -->
-    <string name="subscription">Subscription</string>
-    <string name="subscription_settings">Subscription Settings</string>
-    <!-- ... تمام بقیه رشته‌ها تا آخر ... -->
-
+</resources>
 </resources>
