@@ -11,11 +11,11 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Set up JDK 11
+      - name: Set up JDK 17
         uses: actions/setup-java@v4
         with:
           distribution: 'zulu'
-          java-version: '11'
+          java-version: '17'
 
       - name: Make gradlew executable
         run: chmod +x ./gradlew
@@ -23,11 +23,11 @@ jobs:
       - name: Clean project
         run: ./gradlew clean
 
-      - name: Build Debug APK (Play Flavor)
-        run: ./gradlew assemblePlayDebug
+      - name: Build Debug APK (Preview Flavor)
+        run: ./gradlew assemblePreviewDebug
 
       - name: Upload APK
         uses: actions/upload-artifact@v4
         with:
-          name: NekoBox-Play.apk
-          path: app/build/outputs/apk/play/debug/app-play-debug.apk
+          name: NekoBox-Preview.apk
+          path: app/build/outputs/apk/preview/debug/app-preview-debug.apk
