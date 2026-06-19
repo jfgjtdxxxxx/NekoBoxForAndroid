@@ -35,4 +35,6 @@ android {
     lint {
         abortOnError = false
     }
-}
+lint {
+    abortOnError = false
+}}
