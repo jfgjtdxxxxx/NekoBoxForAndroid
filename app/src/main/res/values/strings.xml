@@ -421,5 +421,103 @@
     <string name="plugin_exists_but_on_shit_system" formatted="false">Profile %s requires the %s plugin, but your proprietary equipment vendor tampered with your Android.</string>
     <string name="profile_requiring_plugin" formatted="false">Profile %s requires the %s plugin to be installed, but it was not found.</string>
     <string name="subscription_traffic" formatted="false">%s Used / %s Remaining</string>
+<!-- plurals (برای رفع وارنینگ جدید) -->
+    <plurals name="added">
+        <item quantity="one">%d item added</item>
+        <item quantity="other">%d items added</item>
+    </plurals>
+    <plurals name="removed">
+        <item quantity="one">%d item removed</item>
+        <item quantity="other">%d items removed</item>
+    </plurals>
 
+    <!-- رشته‌های باقی‌مانده -->
+    <string name="acquire_wake_lock">Acquire WakeLock</string>
+    <string name="acquire_wake_lock_summary">Keep CPU awake while proxy is running</string>
+    <string name="action_anytls">AnyTLS</string>
+    <string name="action_copy">Copy</string>
+    <string name="action_create_group">Create Group</string>
+    <string name="action_download">Download</string>
+    <string name="action_export">Export</string>
+    <string name="action_export_clipboard">Export to Clipboard</string>
+    <string name="action_export_err">Export failed</string>
+    <string name="action_export_file">Export to File</string>
+    <string name="action_export_msg">Export successful</string>
+    <string name="action_from_link">From Link</string>
+    <string name="action_http">HTTP</string>
+    <string name="action_hysteria">Hysteria</string>
+    <string name="action_import">Import</string>
+    <string name="action_import_err">Import failed</string>
+    <string name="action_import_file">Import from File</string>
+    <string name="action_import_msg">Import successful</string>
+    <string name="action_learn_more">Learn More</string>
+    <string name="action_mieru">Mieru</string>
+    <string name="action_naive">NaiveProxy</string>
+    <string name="action_open">Open</string>
+    <string name="action_scan_china_apps">Scan China Apps</string>
+    <string name="action_shadowsocks">Shadowsocks</string>
+    <string name="action_shadowsocksr">ShadowsocksR</string>
+    <string name="action_shadowtls">ShadowTLS</string>
+    <string name="action_socks">SOCKS</string>
+    <string name="action_ssh">SSH</string>
+    <string name="action_switch">Switch</string>
+    <string name="action_trojan">Trojan</string>
+    <string name="action_trojan_go">Trojan-Go</string>
+    <string name="action_tuic">TUIC</string>
+    <string name="action_vmess">VMess</string>
+    <string name="action_wireguard">WireGuard</string>
+    <string name="add_profile_methods_manual_settings">Manual Settings</string>
+    <string name="add_profile_methods_scan_qr_code">Scan QR Code</string>
+    <string name="ads">Ads</string>
+    <string name="allow_insecure_on_request_sum">Allow insecure connections when requested</string>
+    <string name="always_show_address">Always Show Address</string>
+    <string name="always_show_address_sum">Show full address in notification</string>
+    <string name="api_port">API Port</string>
+    <string name="app_list_permission_denied">Permission denied to read app list</string>
+    <string name="app_no_launcher">No launcher activity</string>
+    <string name="app_statistics_disabled">Statistics disabled</string>
+    <string name="ssh_private_key">Private Key</string>
+    <string name="ssh_private_key_passphrase">Passphrase</string>
+    <string name="ssh_public_key">Public Key</string>
+    <string name="standard">Standard</string>
+    <string name="start">Start</string>
+    <string name="stun_attest_loading">Testing NAT...</string>
+    <string name="stun_test">STUN Test</string>
+    <string name="stun_test_summary">Test NAT type using STUN</string>
+    <string name="subscription">Subscription</string>
+    <string name="subscription_expire">Expires</string>
+    <string name="subscription_import">Import Subscription</string>
+    <string name="subscription_import_message">Import subscription from link or file</string>
+    <string name="subscription_settings">Subscription Settings</string>
+    <string name="subscription_type">Subscription Type</string>
+    <string name="subscription_update">Update Subscription</string>
+    <string name="subscription_update_message">Update subscription</string>
+    <string name="subscription_used">Used</string>
+    <string name="subscription_user_agent">User Agent</string>
+    <string name="subscriptions">Subscriptions</string>
+    <string name="tcp_connections">TCP Connections</string>
+    <string name="test_concurrency">Test Concurrency</string>
+    <string name="tls_camouflage_settings">TLS Camouflage Settings</string>
+    <string name="tools_network">Network Tools</string>
+    <string name="traffic_downlink">Downlink</string>
+    <string name="traffic_downlink_total">Total Downlink</string>
+    <string name="traffic_uplink">Uplink</string>
+    <string name="traffic_uplink_total">Total Uplink</string>
+    <string name="translate_platform">Translate Platform</string>
+    <string name="trojan_provider">Trojan Provider</string>
+    <string name="tuic_congestion_controller">Congestion Controller</string>
+    <string name="tuic_disable_sni">Disable SNI</string>
+    <string name="tuic_reduce_rtt">Reduce RTT</string>
+    <string name="tuic_udp_relay_mode">UDP Relay Mode</string>
+    <string name="tun_implementation">TUN Implementation</string>
+    <string name="udp_connections">UDP Connections</string>
+
+    <!-- formatted strings -->
+    <string name="please_update" formatted="false">Your APP is too old (%s). And will stop working at %s. Please update!</string>
+    <string name="please_update_force" formatted="false">Your APP is too old (%s). And has been stopped working at %s. Please update!</string>
+    <string name="plugin_exists_but_on_shit_system" formatted="false">Profile %s requires the %s plugin, but your proprietary equipment vendor tampered with your Android.</string>
+    <string name="profile_requiring_plugin" formatted="false">Profile %s requires the %s plugin to be installed, but it was not found.</string>
+    <string name="subscription_traffic" formatted="false">%s Used / %s Remaining</string>
+
+</resources>
 </resources>
