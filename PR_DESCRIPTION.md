@@ -1,4 +1,4 @@
-# Quick Import VLESS/VMess
+# PR description for quick import feature
 
 This pull request adds a quick import dialog and activity to allow pasting a proxy configuration (VLESS/VMess/etc.) and importing it as a profile, with an option to auto-connect after import.
 
@@ -8,6 +8,6 @@ Changes:
 - Add strings_import.xml for dialog texts
 - Add menu entry "Quick import" in add_profile_menu.xml
 - Register QuickImportActivity in AndroidManifest.xml
-- Hook menu item in ConfigurationFragment to launch QuickImportActivity
+- Fix resources: removed duplicate closing </resources> in strings.xml
 
 Please test locally before merging.
